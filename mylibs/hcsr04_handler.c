@@ -1,8 +1,4 @@
-#include <stdio.h>
-#include "main.h"
-#include "tim.h"
-#include "usart.h"
-#include "gpio.h"
+#include "hcsr04_handler.h"
 
 
 void hcsr04_init(void)

@@ -26,6 +26,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include <stdio.h>
+#include "hcsr04_hanlder.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
