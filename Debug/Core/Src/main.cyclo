@@ -1,0 +1,7 @@
+C:/Users/sztaj/STM32CubeIDE/workspace_1.14.0/testy/mylibs/hcsr04_handler.c:8:6:hcsr04_init	1
+C:/Users/sztaj/STM32CubeIDE/workspace_1.14.0/testy/mylibs/hcsr04_handler.c:17:6:hcsr04_mesurment	1
+C:/Users/sztaj/STM32CubeIDE/workspace_1.14.0/testy/mylibs/hcsr04_handler.c:27:6:hcrs04_exit	1
+../Core/Src/main.c:60:5:__io_putchar	2
+../Core/Src/main.c:74:5:main	1
+../Core/Src/main.c:124:6:SystemClock_Config	4
+../Core/Src/main.c:177:6:Error_Handler	1
