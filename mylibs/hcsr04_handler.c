@@ -1,5 +1,7 @@
 #include "hcsr04_handler.h"
 
+#define TRIG_PIN GPIO_PIN_5
+#define TRIG_PORT GPIOA
 
 void hcsr04_init(void)
 {
@@ -22,8 +24,12 @@ void hcsr04_mesurment(void)
 
 void hcrs04_exit(void)
 {
+	//stop input caputer TIM2
+	HAL_TIM_IC_Stop(&htim2, TIM_CHANNEL_1);
+	HAL_TIM_IC_Stop(&htim2, TIM_CHANNEL_2);
 
-
+	//set trig to low sate (for energy save)
+	HAL_GPIO_WritenPIN(TRIG_PORT, TRIG_PIN< GPIO_PIN_RESET);
 
 
 }
